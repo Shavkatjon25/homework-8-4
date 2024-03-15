@@ -8,7 +8,7 @@ import React, { useEffect, useState } from "react"
 const [Dark, SetDark]=useState<boolean>(true);
 const [Not, SetNot]=useState<boolean>(false);
 const [Dt, SetDt]=useState<any>();
-const [Name, SetName]=useState<string>('anna');
+const [Name, SetName]=useState<string>('octocet');
 useEffect(()=>{
   Data()
 }, [])
